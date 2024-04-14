@@ -1,56 +1,7 @@
 html,
 body {
-  background-color: #1f1e33;
+  background-color: #201b7e;
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 800 400'%3E%3Cdefs%3E%3CradialGradient id='a' cx='396' cy='281' r='514' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%238CAEDD'/%3E%3Cstop offset='1' stop-color='%231F1E33'/%3E%3C/radialGradient%3E%3ClinearGradient id='b' gradientUnits='userSpaceOnUse' x1='400' y1='148' x2='400' y2='333'%3E%3Cstop offset='0' stop-color='%23CDFDFF' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%23CDFDFF' stop-opacity='0.5'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect fill='url(%23a)' width='800' height='400'/%3E%3Cg fill-opacity='0.4'%3E%3Ccircle fill='url(%23b)' cx='267.5' cy='61' r='300'/%3E%3Ccircle fill='url(%23b)' cx='532.5' cy='61' r='300'/%3E%3Ccircle fill='url(%23b)' cx='400' cy='30' r='300'/%3E%3C/g%3E%3C/svg%3E");
   background-attachment: fixed;
   background-size: cover;
-}
-
-.custom-shape-divider-top-1697242629 {
-  top: 0;
-  left: 0;
-  width: 100%;
-  overflow: hidden;
-  line-height: 0;
-}
-
-.custom-shape-divider-top-1697242629 svg {
-  position: relative;
-  display: block;
-  width: calc(100% + 1.3px);
-  height: 25px;
-}
-
-.custom-shape-divider-top-1697242629 .shape-fill {
-  fill: rgb(224, 228, 236);
-}
-
-.table-container {
-  margin-top: 5%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
-  width: 65%;
-}
-
-.table {
-  border-radius: 10px;
-  overflow: hidden;
-  opacity: 0.9;
-}
-
-.navbar-logo {
-  width: 50px;
-  margin-left: auto;
-}
-
-.navbar {
-  background-color: rgb(224, 228, 236) !important;
-}
-
-.col {
-  margin-left: 3%;
-  margin-right: 3%;
 }
