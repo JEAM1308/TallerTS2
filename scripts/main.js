@@ -6,7 +6,7 @@ function renderSeriesInTable(series) {
     console.log('Cargando series...');
     series.forEach(function (serie) {
         var trElement = document.createElement("tr");
-        trElement.innerHTML = "<td>".concat(serie.id, "</td>\n                           <td>").concat(serie.name, "</td>\n                           <td>").concat(serie.channel, "</td>\n                           <td>").concat(serie.seasons, "</td>");
+        trElement.innerHTML = "<td>".concat(serie.id, "</td>\n                           <td class=\"nameTag\"><a href=\"#\">").concat(serie.name, "</a></td>\n                           <td>").concat(serie.channel, "</td>\n                           <td>").concat(serie.seasons, "</td>");
         seriesTbody.appendChild(trElement);
     });
 }

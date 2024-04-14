@@ -12,7 +12,7 @@ function renderSeriesInTable(series: Serie[]): void {
   series.forEach((serie) => {
     let trElement = document.createElement("tr");
     trElement.innerHTML = `<td>${serie.id}</td>
-                           <td>${serie.name}</td>
+                           <td class="nameTag"><a href="#">${serie.name}</a></td>
                            <td>${serie.channel}</td>
                            <td>${serie.seasons}</td>`;
     seriesTbody.appendChild(trElement);
