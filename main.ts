@@ -1,6 +1,6 @@
-import { Serie } from './scripts/series.js';
+import { Serie } from './series.js';
 
-import { dataSeries } from './scripts/data.js';
+import { dataSeries } from './data.js';
 
 
 let seriesTbody: HTMLElement = document.getElementById('series')!;
